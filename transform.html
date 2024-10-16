@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        .container{
+            margin: 10px;
+            padding: 10px;
+            height: 300px;
+            border: 1px solid black;
+
+        }
+        .obj{
+            height: 250px;
+            /* transform: translateX(30px); */
+            /* transform: translateY(-30px); */
+            /* translate: 30px 40px; */
+/* transform:translate(30px,50px) ; */
+/* transform:rotate(30deg) ; */
+/* rotate: -45deg; */
+/* transform: skew(30deg); */
+/* transform: scaleY(1.5); */
+transition: 2s;
+/* transform-origin: top right; */
+/* transform-origin: bottom right; */
+/* transform-origin: bottom left; */
+/* transform-origin: center; */
+
+transform-origin: 50% 100%;
+
+        }
+        .obj:hover{
+            transform: rotate(30deg);
+            /* transform:rotate(30deg) ; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="obj" src="https://images.unsplash.com/photo-1723754166148-2ceb2d84890f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzfHx8ZW58MHx8fHx8" alt="">
+    </div>
+</body>
+</html>

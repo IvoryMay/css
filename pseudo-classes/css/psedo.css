@@ -1,0 +1,12 @@
+.pse::before{
+content: "**";
+margin-left:10px;
+color: brown;
+}
+
+.pse::after{
+    content: "Hello";
+    color: aquamarine;
+    margin-right: 10px;
+
+}

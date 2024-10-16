@@ -1,0 +1,26 @@
+.heading
+{
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    /* font-family: sans-serif; */
+    font-family: serif;
+}
+.para
+{
+    text-transform: capitalize;
+    word-spacing: 10px;
+    line-height: 40px;
+}
+.del{
+    text-decoration: line-through;
+}
+.mm{
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    font-family: Padauk;
+    font-weight: bold;
+}
+.short-hand{
+    font:italic 200 30px/40px "Montserrat";
+}

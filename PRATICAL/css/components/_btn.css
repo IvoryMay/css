@@ -1,0 +1,68 @@
+.btn {
+    color: white;
+    padding: 0px 30px;
+    margin: 5px;
+    text-decoration: none;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+  
+  }
+  
+  .btn1 {
+    background-color:var(--color1);
+    border: 1px solid var(--color1);
+  }
+  .btn2 {
+    background-color: var(--color2);
+    border: 1px solid var(--color2);
+  }
+  
+  .btn1-outline {
+      color:var(--color1) ;
+      border: 2px solid var(--color1);
+      background-color: transparent;
+    }
+  
+    .btn2-outline {
+      color:var(--color2) ;
+      border: 2px solid var(--color2);
+      background-color: transparent;
+  
+    }
+    
+    .btn-dark {
+      background-color:var(--color-dark);
+      border: 1px solid var(--color-dark);
+    }
+  
+    .btn-icons{
+      padding: 0;
+      width: 50px;
+    }
+  
+    .btn-blue{
+      background-color:#00b4d8 ;
+      border-color: #00b4d8;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+    .btn-pink{
+      background-color: #fb6f92;
+      border-color: #fb6f92;
+      box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    }
+  
+    .btn-green{
+      background-color: #adc178;
+      border-color: #adc178;
+      color: white;
+      box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    }
+  
+    .btn-color{
+      background-color: #ecf39e;
+      border-color: #ecf39e;
+      color: black;
+      box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    }
+  

@@ -1,0 +1,30 @@
+.para1{
+    font:italic 200 20px/30px "Montserrat";
+    font-family: "Madimi One", sans-serif;
+}
+.icons{
+    font-size: 50px;
+    color: pink;
+}
+.red{
+    color: red;
+
+}
+.violet{
+    color: blueviolet;
+}
+.bg-test{
+    width: 500px;
+    height: 600px;
+    background-color: cornflowerblue;
+    background-image: url("../images/pic1.jpg");
+    background-size: 300px;
+    background-repeat:no-repeat ;
+    background-position: center;
+}
+.bg-gradient{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    background-image: conic-gradient(rgb(10, 10, 95),rgb(95, 135, 95));
+}

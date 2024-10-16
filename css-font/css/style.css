@@ -1,0 +1,55 @@
+.para{
+    font-family: "Roboto", sans-serif;
+}
+.heading{
+    font-family: "Open Sans", sans-serif;
+    display: inline-block;
+    height: 100px;
+    width: 250px;
+    background-color: aquamarine;
+}
+.mm{
+    font-family: "Padauk", sans-serif;
+}
+.icons{
+    color:pink;
+    font-size: 40px;
+}
+.box{
+    background-color: aquamarine;
+    height: 300px;
+    background-image: url("../../../images/pic2.jpg");
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: top 30px left 150px;
+    background-attachment: fixed;
+}
+body{
+    height: 5000px;
+}
+.para1{
+    background-color: rgb(118, 179, 159);
+    height: 500px;
+    background-image: url("../images/love.gif"),url(../images/tree-evergreen-svgrepo-com.svg);
+    background-repeat:no-repeat;
+    background-size:100px,auto 400px ;
+    background-position: bottom,  bottom right -50px;
+}
+.bg-gradient1{
+    background-color: pink;
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(to right,yellow,rgb(14, 154, 210) );
+}
+.bg-gradient2{
+    background-color: pink;
+    width: 100%;
+    height: 200px;
+    background-image: radial-gradient(yellow ,rgb(14, 154, 210) ) ;
+}
+.bg-gradient3{
+    background-color: pink;
+    width: 100%;
+    height: 200px;
+    background-image: conic-gradient(rgb(14, 154, 210)  ,yellow ) ;
+}

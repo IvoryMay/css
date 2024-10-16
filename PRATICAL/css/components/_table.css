@@ -1,0 +1,56 @@
+.table{
+    width: 100%;
+}
+.table tr{
+
+}
+
+.table td, .table th{
+    border-bottom: 0.5px solid black;
+    padding: 10px 15px;
+}
+
+.table-border-green td,
+.table-border-green th{
+    border: 1px solid #adc178;
+}
+
+.table-border-blue td,
+.table-border-blue th{
+    border: 1px solid #00b4d8;
+}
+
+.table .thead-green{
+    background: #adc178;
+    color: white;
+
+}
+
+.table .thead-blue{
+    background: #00b4d8;
+    color: white;
+}
+
+.table-hover tbody tr:hover{
+    background-color: rgba(198, 184, 184, 0.541);
+}
+
+.table-border-green.table-hover tbody tr:hover{
+    background-color: #edefe8;
+}
+
+.table-border-blue.table-hover tbody tr:hover{
+    background-color:#dce5e7;
+}
+
+.table-striped tbody tr:nth-child(even){
+    background-color: rgb(169, 159, 159);
+}
+
+.table-border-green.table-striped tbody tr:nth-child(even){
+    background-color: rgb(199, 208, 169);
+}
+
+.table-border-blue.table-striped tbody tr:nth-child(even){
+    background-color: rgb(181, 214, 219);
+}

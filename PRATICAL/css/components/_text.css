@@ -1,0 +1,11 @@
+.heading {
+    text-decoration: underline;
+    margin-bottom: 30px;
+    /* text-align: center; */
+    font-size: 35px;
+    color:#669bbc ;
+    text-shadow: 3px 4px 3px gray;
+    font-family: var(--heading-font);
+  }
+  
+  

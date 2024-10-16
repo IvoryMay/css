@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Media Qurey</title>
+    <style>
+          h1{
+              font-size: 100px;
+              font-family: serif;
+              color: aqua;
+          }
+          .print-only{
+                display: none;
+            }
+
+          @media screen and (max-width:920px){
+              h1{
+              font-size: 40px;
+              color: cornflowerblue;
+          }
+      }
+
+
+          @media screen and (max-width:480px){
+              h1{
+              font-size: 20px;
+              color: brown;
+          }
+        }
+
+          @media print{
+            h1{
+                color: green;
+            }
+            .print-only{
+                display: block;
+            }
+          }
+    </style>
+  </head>
+  <body>
+    <h1>Min Galar Par</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tempore
+      ipsam recusandae similique, reprehenderit ducimus ipsum sit sequi rem
+      tenetur consectetur, quod sed asperiores voluptatem et magni qui. Placeat,
+      modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci,
+      unde quas. Optio sed itaque voluptates! Fugit doloremque dignissimos
+      explicabo accusantium nihil laborum alias praesentium ea, repudiandae
+      natus odit officia facilis distinctio eos eligendi quod. Impedit magni,
+      necessitatibus similique, culpa delectus excepturi incidunt aspernatur
+      commodi autem ut rem. Expedita cum est assumenda quaerat velit nisi, minus
+      praesentium vero ea, voluptate debitis?
+    </p>
+    <p class="print-only">Thanks for shopping with us!</p>
+  </body>
+</html>
